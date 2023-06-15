@@ -9,11 +9,11 @@ export default {
 <template>
     <header>
         <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
+            <li>Home</li>
+            <li>Staff</li>
+            <li>Lavora con noi</li>
+            <li>Info</li>
+            <li>Contattaci</li>
         </ul>
     </header>
 </template>
@@ -24,5 +24,8 @@ export default {
 ul {
     list-style: none;
     @include flex;
+    li {
+        margin-right: 1rem;
+    }
 }
 </style>
