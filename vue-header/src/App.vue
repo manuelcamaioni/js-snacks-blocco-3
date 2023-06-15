@@ -1,5 +1,5 @@
 <script>
-import AppHeader from "./components/AppHeader.vue";
+import AppHeader from "./AppHeader.vue";
 export default {
     components: {
         AppHeader,
@@ -14,4 +14,6 @@ export default {
     <AppHeader />
 </template>
 
-<style></style>
+<style lang="scss">
+@import "./styles/general.scss";
+</style>
