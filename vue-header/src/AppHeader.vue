@@ -18,4 +18,11 @@ export default {
     </header>
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped>
+@use "./styles/partials/mixins.scss" as *;
+
+ul {
+    list-style: none;
+    @include flex;
+}
+</style>
