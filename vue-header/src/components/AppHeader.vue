@@ -35,7 +35,7 @@ export default {
     <header>
         <ul>
             <li v-for="element in NavList">
-                <NavLink :link="element.link">{{ element.name }}</NavLink>
+                <NavLink :linkProp="element.link" />{{ element.name }}
             </li>
         </ul>
     </header>

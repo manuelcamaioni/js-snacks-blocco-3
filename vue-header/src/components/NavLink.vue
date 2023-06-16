@@ -8,7 +8,7 @@ export default {
         return {};
     },
     props: {
-        link: "String",
+        linkProp: string,
     },
 };
 </script>
